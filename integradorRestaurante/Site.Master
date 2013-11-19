@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="integradorRestaurante.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    
+        
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1 id="resta">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    MANGIAMO</h1>
+                <p>
+                    &nbsp;</p>
+            </div>
+            <div class="loginDisplay">
+                <asp:Button ID="Button8" runat="server" onclick="Button8_Click" Text="Salir" 
+                    CssClass="myButton2" Font-Size="Small" Height="28px" Width="55px" />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+            <div class="clear hideSkiplink">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button 
+                    ID="Button1" runat="server" onclick="Button1_Click" Text="Reg. Pltatos" 
+                    Visible="False" CssClass="myButton" />
+                <asp:Button ID="Button2" runat="server" Text="Reg. Personal" Visible="False" 
+                    CssClass="myButton" Width="135px" onclick="Button2_Click" />
+                <asp:Button ID="Button3" runat="server" Text="Reg. Mesas" Visible="False" 
+                    CssClass="myButton" Width="134px" onclick="Button3_Click" />
+                <asp:Button ID="Button7" runat="server" onclick="Button7_Click" 
+                    Text="Pedidos" Visible="False" CssClass="myButton" Width="98px" />
+                <asp:Button ID="Button4" runat="server" onclick="Button4_Click" 
+                    Text="Reservas" Visible="False" CssClass="myButton" Width="105px" />
+                <asp:Button ID="Button5" runat="server" onclick="Button5_Click" 
+                    Text="Apertura Mesa" Visible="False" CssClass="myButton" Width="138px" />
+                <asp:Button ID="Button6" runat="server" onclick="Button6_Click" 
+                    Text="Cierre Mesa" Visible="False" CssClass="myButton" Width="135px" />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <br />
+                <br />
+                
+            </div>
+        </div>
+        <div class="main">
+
+           <asp:ContentPlaceHolder ID="MainContent" runat="server">
+              
+               <p>
+                   &nbsp;<br />
+               </p>
+               <p>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </p>
+               <p>
+                   &nbsp;</p>
+              
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
